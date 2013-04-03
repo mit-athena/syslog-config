@@ -2,8 +2,8 @@ Source: debathena-syslog-config
 Section: debathena-config/admin
 Priority: extra
 Maintainer: Debathena Project <debathena@mit.edu>
-Build-Depends: @cdbs@, debathena-syslog
-Standards-Version: 3.8.3
+Build-Depends: cdbs, debhelper, dh-buildinfo, config-package-dev (>= 5.0~), debathena-syslog
+Standards-Version: 3.9.3
 
 Package: debathena-syslog-config
 Architecture: all
